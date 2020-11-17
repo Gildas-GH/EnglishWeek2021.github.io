@@ -12461,10 +12461,12 @@ input[type=radio] + label:before {
 
 /* background-colors */
 
-body {
+#after-header {
   background-image: url("../img/head_bg.png");
   background-repeat: no-repeat fixed;
   background-size: contain;
+  z-index: 10;
+  background-color: white;
 }
 
 

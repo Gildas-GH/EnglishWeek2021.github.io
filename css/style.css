@@ -42,6 +42,18 @@ header, section, [data-bg-src], [data-bg-src-2x] {
   background-size: cover;
 }
 
+.animation_background {
+  background-color: #08090d;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0; 
+}
+
+
 header, section {
   overflow: hidden;
 }
