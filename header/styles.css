@@ -65,7 +65,7 @@ a.pink {
 }
 
 .logo-ew {
-    width: 150px;
+    width: 120px;
     margin-bottom: 30px;
 }
 
@@ -80,7 +80,7 @@ a.pink {
 @media (max-width: 768px) {
     .logo-ew {
         margin-top: 30px;
-        width: 100px;
+        width: 80px;
         margin-bottom: 20px !important;
     }
 
