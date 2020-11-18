@@ -45,7 +45,6 @@ header, section, [data-bg-src], [data-bg-src-2x] {
 .animation_background {
   background-color: #08090d;
   width: 100%;
-  position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
