@@ -89,7 +89,7 @@
 <!-- Header 1 -->
 <header class="header" style="height: 100%">
     <!-- Image Logo -->
-    <img class="logo-ew" src="img/logo.png" />
+    <img class="logo-ew" src="img/logo.png"/>
 
     <!-- Text Logo - Use this if you don't have a graphic logo -->
     <!-- <a class="logo-text" href="index.html">Bono</a> -->
@@ -114,7 +114,8 @@
                             class="counter-number">26<br><span class="timer-text">Minutes</span></span><span
                             class="counter-number">16<br><span class="timer-text">Seconds</span></span></span>
                 </div>
-                <h1 class="topic-carousel">Conferences about <span id="js-rotating" class="morphext"><span class="animated fadeIn">Artificial Intelligence,Cybersecurity,Data-science,Video games,Quantum computing</span></span>
+                <h1 class="topic-carousel">Conferences about <span id="js-rotating" class="morphext"><span
+                        class="animated fadeIn">Artificial Intelligence,Cybersecurity,Data-science,Video games,Quantum computing</span></span>
                 </h1><br>
                 <h4 class="p-heading">IUT VANNES - February 1st - 5th, 2021</h4>
 
@@ -188,6 +189,28 @@
             </div>
         </div>
     </section>
+
+    <section id="stream" class="pt-100 pb-70  blog_2">
+        <div class="container px-xl-0">
+            <h3 class="mb-15" data-aos="fade-down" data-aos-delay="0">
+                Stream
+            </h3>
+            <div class="mb-60 color-heading f-18 text-adaptive" data-aos="fade-down" data-aos-delay="0">
+                Watch the event with us.
+            </div>
+            <div id="twitch-embed"></div>
+
+            <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+            <script type="text/javascript">
+                new Twitch.Embed("twitch-embed", {
+                    width: "100%",
+                    height: "467px",
+                    channel: "relaxfriends",
+                });
+            </script>
+        </div>
+    </section>
     <!-- Blog 2 -->
     <section id="talks" class="pt-100 pb-70  blog_2">
         <div class="container px-xl-0">
@@ -213,14 +236,14 @@
                                     </p>
 
                                 </div>
-                                <a href="#" class="link color-main relative">
+                                <div class=" color-main relative">
                                     <div class="mb-20 f-22 color-white medium text-adaptive">
                                         Analytics at Scale : How organizations leverage the power of Big Data
                                     </div>
-                                    <div class="f-14 thin text-uppercase sp-20">
+                                    <div class="f-14 thin text-uppercase sp-20 color-bg-light">
                                         Henri Dupond
                                     </div>
-                                </a>
+                                </div>
                             </div>
                         </div>
                         <div class=" mb-30 col-12 col-sm-6 h-390 block-thin" data-aos="fade-down" data-aos-delay="500">
@@ -236,14 +259,14 @@
                                         Cyber Security
                                     </p>
                                 </div>
-                                <a href="#" class="link color-main relative">
+                                <div class=" color-main relative">
                                     <div class="mb-20 f-22 medium color-white text-adaptive">
                                         Taming Kerberos : Behind the Network Authentication Protocol
                                     </div>
-                                    <div class="f-14 thin text-uppercase sp-20">
+                                    <div class="f-14 thin text-uppercase sp-20 color-bg-light">
                                         Henri Dupond
                                     </div>
-                                </a>
+                                </div>
                             </div>
                         </div>
                         <div class="mb-30 col-12 col-sm-6 h-390 block-thin" data-aos="fade-down" data-aos-delay="750">
@@ -259,14 +282,14 @@
                                     </p>
 
                                 </div>
-                                <a href="#" class="link color-main relative">
+                                <div class=" color-main relative">
                                     <div class="mb-20 f-22 color-white medium text-adaptive">
                                         How Variational Quantum Eigensolver transformed Quantum Chemistry
                                     </div>
-                                    <div class="f-14 thin text-uppercase sp-20">
+                                    <div class="f-14 thin text-uppercase sp-20 color-bg-light">
                                         Henri Dupond
                                     </div>
-                                </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -286,14 +309,14 @@
                                     </p>
 
                                 </div>
-                                <a href="#" class="link color-main relative">
+                                <div class=" color-main relative">
                                     <div class="mb-20 f-22 color-white medium text-adaptive">
                                         AI or Not AI : Where are we headed?
                                     </div>
-                                    <div class="f-14 thin text-uppercase sp-20">
+                                    <div class="f-14 thin text-uppercase sp-20 color-bg-light">
                                         Henri Dupond
                                     </div>
-                                </a>
+                                </div>
                             </div>
                         </div>
                         <div class="mb-30 col-12 col-sm-6 h-390 block-thin" data-aos="fade-down" data-aos-delay="1250">
@@ -309,14 +332,14 @@
                                     </p>
 
                                 </div>
-                                <a href="#" class="link color-main relative">
+                                <div class=" color-main relative">
                                     <div class="mb-20 f-22 color-white medium text-adaptive">
                                         Frameworks for Fast Prototyping and Development
                                     </div>
-                                    <div class="f-14 thin text-uppercase sp-20">
+                                    <div class="f-14 thin text-uppercase sp-20 color-bg-light">
                                         Henri Dupond
                                     </div>
-                                </a>
+                                </div>
                             </div>
                         </div>
                         <div class="mb-30 col-12 h-270" data-aos="fade-down" data-aos-delay="1500">
@@ -332,14 +355,14 @@
                                     </p>
 
                                 </div>
-                                <a href="#" class="link color-main relative">
+                                <div class=" color-main relative">
                                     <div class="mb-20 f-22 color-white medium text-adaptive">
                                         Generative Modelling and the Bayesian Statistics
                                     </div>
-                                    <div class="f-14 thin text-uppercase sp-20">
+                                    <div class="f-14 thin text-uppercase sp-20 color-bg-light">
                                         Henri Dupond
                                     </div>
-                                </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -347,6 +370,7 @@
             </div>
         </div>
     </section>
+
     <!-- Speakers -->
     <section id="speakers" class="pt-100 pb-100  ecommerce_1">
         <div class="container px-xl-0">
@@ -813,7 +837,9 @@
 <!-- The Final Countdown plugin for jQuery -->
 <script src="header/morphext.js"></script>
 <!-- Morphtext rotating text in the header -->
-<script src="https://cdn.jsdelivr.net/npm/tsparticles@1.9.2/dist/tsparticles.min.js" integrity="sha256-5kED68Spy7K2CEbfu4CjV92DmZR5ZQFUoIR5qmPzZWg=" crossorigin="anonymous"></script><!-- Particles for background effects -->
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@1.9.2/dist/tsparticles.min.js"
+        integrity="sha256-5kED68Spy7K2CEbfu4CjV92DmZR5ZQFUoIR5qmPzZWg=" crossorigin="anonymous"></script>
+<!-- Particles for background effects -->
 
 <script src="header/scripts.js"></script>
 <!-- Custom scripts -->
