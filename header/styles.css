@@ -662,9 +662,11 @@ canvas {
 @media (max-width: 769px) {
     .contact-container {
         display: none;
+        margin: 0;
     }
     .contact-container span {
         display: none;
+        margin: 0;
     }
 }
 
