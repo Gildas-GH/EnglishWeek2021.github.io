@@ -64,57 +64,6 @@ a.pink {
     color: #ff4587;
 }
 
-.logo-ew {
-    width: 120px;
-    margin-bottom: 30px;
-}
-
-.topic-carousel {
-    font-size: 40px !important;
-}
-
-.countdown {
-    margin-bottom: 30px !important;
-}
-
-@media (max-width: 768px) {
-    .logo-ew {
-        margin-top: 30px;
-        width: 80px;
-        margin-bottom: 20px !important;
-    }
-
-    .topic-carousel {
-        font-size: 30px !important;
-    }
-
-    .p-heading {
-        font-size: 20px !important;
-    }
-
-    .countdown {
-        margin-bottom: 0 !important;
-    }
-}
-
-@media (max-width: 500px) {
-    .logo-ew {
-        width: 0;
-    }
-
-    .countdown {
-        margin-bottom: 15px;
-    }
-
-    .p-heading {
-        font-size: 15px !important;
-    }
-
-    .topic-carousel {
-        font-size: 25px !important;
-    }
-}
-
 .btn-solid-reg {
     display: inline-block;
     padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
@@ -708,6 +657,12 @@ canvas {
     right: 0;
     bottom: 1rem;
     left: 0;
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        display: none;
+    }
 }
 
 .header .fa-stack {
