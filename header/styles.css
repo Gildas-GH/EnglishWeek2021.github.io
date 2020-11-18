@@ -552,8 +552,8 @@ canvas {
 .header .logo-image {
     width: 7.125rem;
     height: 7.125rem;
-    margin-top: 2.5rem;
-    margin-bottom: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .header .logo-text {
@@ -717,8 +717,8 @@ canvas {
 
     .header .logo-image {
         position: absolute;
-        top: 1.875rem;
-        left: 1rem;
+        top: 3rem;
+        left: 3rem;
         margin-top: 0;
     }
 
@@ -850,7 +850,7 @@ canvas {
     /* Header */
     .header .logo-image,
     .header .logo-text {
-        left: 2rem;
+        left: 3rem;
     }
 
     /* end of header */
