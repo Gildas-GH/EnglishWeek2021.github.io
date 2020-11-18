@@ -662,6 +662,8 @@ canvas {
 @media (max-width: 768px) {
     .contact-container {
         display: none;
+        visibility: hidden;
+        clear: both;
     }
 }
 
