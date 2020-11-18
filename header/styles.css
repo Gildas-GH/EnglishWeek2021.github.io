@@ -69,19 +69,49 @@ a.pink {
     margin-bottom: 30px;
 }
 
+.topic-carousel {
+    font-size: 40px !important;
+}
+
+.countdown {
+    margin-bottom: 30px !important;
+}
+
 @media (max-width: 768px) {
     .logo-ew {
-        margin-top: 20px;
+        margin-top: 30px;
         width: 100px;
-        margin-bottom: 30px;
+        margin-bottom: 20px !important;
+    }
+
+    .topic-carousel {
+        font-size: 25px !important;
+    }
+
+    .p-heading {
+        font-size: 20px !important;
+    }
+
+    .countdown {
+        margin-bottom: 0 !important;
     }
 }
 
 @media (max-width: 500px) {
     .logo-ew {
-        margin-top: 20px;
         width: 0;
-        margin-bottom: 50px;
+    }
+
+    .countdown {
+        margin-bottom: 15px;
+    }
+
+    .p-heading {
+        font-size: 15px !important;
+    }
+
+    .topic-carousel {
+        font-size: 20px !important;
     }
 }
 
