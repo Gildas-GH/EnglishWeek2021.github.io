@@ -485,24 +485,24 @@ input[type='checkbox'] {
 }
 
 .play-button-container {
-    width: 5rem;
-    height: 5rem;
+    width: 7rem;
+    height: 7rem;
     margin: auto;
     margin-bottom: 30px;
     display: block;
 }
 
 .play-button {
-    width: 5rem;
-    height: 5rem;
+    width: 7rem;
+    height: 7rem;
 }
 
 .play-button-bubble {
 	position: absolute;
 	z-index: 0;
 	left: 50%;
-	width: 5rem;
-	height: 5rem;
+	width: 7rem;
+	height: 7rem;
 	border-radius: 50%;
 	background: #fc5d66;
 	animation: pulse-border 1500ms ease-out infinite;
@@ -659,7 +659,28 @@ canvas {
     left: 0;
 }
 
-@media (max-width: 769px) {
+.topic-carousel {
+    font-size: 40px !important;
+}
+.countdown {
+    margin-bottom: 30px !important;
+}
+
+@media (max-width: 768px) {
+    .topic-carousel {
+        font-size: 25px !important;
+    }
+
+    .logo-image {
+        width: 50px !important;
+        height: 50px !important;
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+    }
+    .countdown {
+        margin-bottom: 10px !important;
+    }
+
     .contact-container {
         display: none;
         margin: 0;
@@ -667,6 +688,10 @@ canvas {
     .contact-container span {
         display: none;
         margin: 0;
+    }
+
+    .p-heading {
+        font-size: 20px !important;
     }
 }
 
