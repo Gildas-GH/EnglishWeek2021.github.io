@@ -618,7 +618,7 @@ canvas {
 }
 
 .landing .p-heading {
-    margin-bottom: 2rem;
+    margin-bottom: 0;
 }
 
 .landing form {
@@ -732,7 +732,7 @@ canvas {
 /* Min-width 768px */
 @media (min-width: 768px) {
 
-    /* Header */
+    /* Header */iiiiiiiiiiiiiii
     .landing {
         position: relative;
         display: flex;
