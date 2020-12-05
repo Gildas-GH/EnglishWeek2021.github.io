@@ -590,16 +590,16 @@ canvas {
 
 .landing .countdown #clock .counter-number {
     display: inline-block;
-    width: 6.5rem;
-    height: 6.5rem;
+    width: 5.5rem;
+    height: 4.5rem;
     margin-right: 0.5rem;
     margin-bottom: 1.25rem;
     margin-left: 0.5rem;
-    padding-top: 2rem;
+    padding-top: 1.25rem;
     border-radius: 0.5rem;
     background-color: rgba(255, 255, 255, 0.1);
     font-weight: 700;
-    font-size: 2.25rem;
+    font-size: 1.75rem;
     line-height: 1.25rem;
     text-align: center;
 }
@@ -775,11 +775,11 @@ canvas {
     }
 
     .landing .countdown #clock .counter-number {
-        width: 7.75rem;
-        height: 7.75rem;
+        width: 7rem;
+        height: 5.5rem;
         margin-bottom: 0;
-        padding-top: 2.5rem;
-        font-size: 3rem;
+        padding-top: 1.5rem;
+        font-size: 2.25rem;
         line-height: 1.5rem;
     }
 
@@ -846,16 +846,16 @@ canvas {
 
     h2 {
         font-size: 2.5rem;
-        line-height: 3.25rem;
+        line-height: 2.75rem;
     }
 
     /* end of general styles */
     /* Header */
     .landing .countdown #clock .counter-number {
         width: 9rem;
-        height: 9rem;
-        padding-top: 3.125rem;
-        font-size: 3.25rem;
+        height: 7rem;
+        padding-top: 2.125rem;
+        font-size: 2.75rem;
     }
 
     .landing h1 {
