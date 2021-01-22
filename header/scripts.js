@@ -25,7 +25,7 @@ $('a[href*=\\#stream]').on('click', function(event){
 	});
 
 	/* Countdown Timer - The Final Countdown */
-	$('#clock').countdown('2021/02/01 08:15:00') /* change here your "countdown to" date */
+	$('#clock').countdown('2021/02/02 08:00:00') /* change here your "countdown to" date */
 	.on('update.countdown', function(event) {
 		var format = '<span class="counter-number">%D<br><span class="timer-text">Days</span></span><span class="counter-number">%H<br><span class="timer-text">Hours</span></span><span class="counter-number">%M<br><span class="timer-text">Minutes</span></span><span class="counter-number">%S<br><span class="timer-text">Seconds</span></span>';
 		$(this).html(event.strftime(format));
