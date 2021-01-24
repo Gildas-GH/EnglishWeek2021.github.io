@@ -86,9 +86,9 @@ a.pink {
 .btn-solid-lg {
     display: inline-block;
     padding: 1.5rem 2.375rem 1.5rem 2.375rem;
-    border: 0.125rem solid #ff4587;
+    border: 0.125rem solid #872e95;
     border-radius: 2rem;
-    background-color: #ff4587;
+    background-color: #872e95;
     color: #ffffff;
     font: 700 0.875rem/0 "Open Sans", sans-serif;
     text-decoration: none;
@@ -96,9 +96,9 @@ a.pink {
 }
 
 .btn-solid-lg:hover {
-    border: 0.125rem solid #ff4587;
+    border: 0.125rem solid #872e95;
     background-color: transparent;
-    color: #ff4587;
+    color: #872e95;
     text-decoration: none;
 }
 
